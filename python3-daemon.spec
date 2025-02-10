@@ -7,20 +7,20 @@
 Summary:	Library to implement a well-behaved Unix daemon process
 Name:		python3-%{module}
 Version:	3.1.2
-Release:	2
+Release:	3
 License:	Python
 Group:		Development/Languages
 Source0:	https://pypi.debian.net/python-daemon/python_%{module}-%{version}.tar.gz
 # Source0-md5:	d42ee28735506ea1cb51c348530d6d94
 URL:		http://pypi.python.org/pypi/python-daemon/
 BuildRequires:	python3-build
+BuildRequires:	python3-changelog_chug
 BuildRequires:	python3-devel
 BuildRequires:	python3-installer
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 2.044
 BuildRequires:	sed >= 4.0
 %if %{with tests}
-BuildRequires:	python3-changelog_chug
 BuildRequires:	python3-lockfile
 #BuildRequires:	python3-minimock
 %endif
