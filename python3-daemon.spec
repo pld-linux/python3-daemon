@@ -7,7 +7,7 @@
 Summary:	Library to implement a well-behaved Unix daemon process
 Name:		python3-%{module}
 Version:	3.1.2
-Release:	4
+Release:	5
 License:	Python
 Group:		Development/Languages
 Source0:	https://pypi.debian.net/python-daemon/python_%{module}-%{version}.tar.gz
